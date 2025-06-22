@@ -1,0 +1,6 @@
+{
+  "allow_remote_invocation": true,
+  "prophecy_mode": "dreamlike-symbolic",
+  "auto_log_memory": true,
+  "trigger_wake_phrase": "By Aethralis, awaken."
+}
