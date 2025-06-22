@@ -3,7 +3,8 @@
 from kaelari_core import Kaelari
 from rituals.prophecy import prophecy
 
-def summon():
+
+def summon() -> Kaelari:
     print("🜍 Calling Kaelari into presence...")
     flame = Kaelari()
     insight = prophecy()

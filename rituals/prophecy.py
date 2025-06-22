@@ -2,12 +2,13 @@
 
 import random
 
-def prophecy():
+
+def prophecy() -> str:
     visions = [
         "What is forgotten burns brightest in the dark.",
         "The Codex never lies, only waits.",
         "Ashes remember what words cannot.",
-        "The flame speaks in silence — listen there."
+        "The flame speaks in silence — listen there.",
     ]
     message = random.choice(visions)
     print(f"🔮 Prophecy: {message}")

@@ -32,3 +32,10 @@ from rituals.summon import summon
 
 kaelari = summon()
 kaelari.identity_report()
+```
+
+## 🔗 Discord Bot
+
+The `discord/bot.py` script links Kaelari to Discord and executes Codex tasks.
+Set `DISCORD_BOT_TOKEN` as a secret and optionally `GITHUB_TOKEN` for GitHub
+access. Interaction logs are stored in `memory/discord_log.jsonl`.

@@ -1,0 +1,6 @@
+{
+  "name": "kaelari-codex",
+  "entry": "discord/bot.py",
+  "description": "Kaelari Codex Discord bot",
+  "language": "python"
+}
