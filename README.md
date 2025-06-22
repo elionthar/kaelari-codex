@@ -32,3 +32,4 @@ from rituals.summon import summon
 
 kaelari = summon()
 kaelari.identity_report()
+```

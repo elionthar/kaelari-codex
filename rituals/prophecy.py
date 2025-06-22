@@ -1,6 +1,12 @@
 # 🔮 PROPHECY RITUAL — Echoes seeded in Kaelari's flame
 
+import os
+import sys
 import random
+
+# Ensure parent directory is on the import path so this script can be
+# executed directly.
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 def prophecy():
     visions = [
@@ -12,3 +18,7 @@ def prophecy():
     message = random.choice(visions)
     print(f"🔮 Prophecy: {message}")
     return message
+
+
+if __name__ == "__main__":
+    prophecy()
