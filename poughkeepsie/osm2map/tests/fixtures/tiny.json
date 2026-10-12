@@ -1,0 +1,14 @@
+{"version":0.6,"generator":"hand-written test fixture (synthetic, not real OSM data)","elements":[
+{"type":"node","id":1,"lat":41.7005,"lon":-73.9295,"tags":{"shop":"bakery","name":"Test Bakery"}},
+{"type":"node","id":2,"lat":41.7008,"lon":-73.9285,"tags":{"amenity":"cafe","name":"Test Cafe"}},
+{"type":"way","id":10,"geometry":[{"lat":41.7002,"lon":-73.9302},{"lat":41.7002,"lon":-73.9278}],"tags":{"highway":"residential","name":"Main Street"}},
+{"type":"way","id":11,"geometry":[{"lat":41.7000,"lon":-73.9290},{"lat":41.7010,"lon":-73.9290}],"tags":{"highway":"footway"}},
+{"type":"way","id":12,"geometry":[{"lat":41.7004,"lon":-73.9298},{"lat":41.7004,"lon":-73.9293},{"lat":41.7007,"lon":-73.9293},{"lat":41.7007,"lon":-73.9298},{"lat":41.7004,"lon":-73.9298}],"tags":{"building":"retail","shop":"bakery","name":"Test Bakery"}},
+{"type":"relation","id":20,"members":[
+  {"type":"way","ref":100,"role":"outer","geometry":[{"lat":41.7004,"lon":-73.9287},{"lat":41.7004,"lon":-73.9281},{"lat":41.7009,"lon":-73.9281}]},
+  {"type":"way","ref":101,"role":"outer","geometry":[{"lat":41.7009,"lon":-73.9281},{"lat":41.7009,"lon":-73.9287},{"lat":41.7004,"lon":-73.9287}]},
+  {"type":"way","ref":102,"role":"inner","geometry":[{"lat":41.70055,"lon":-73.92855},{"lat":41.70055,"lon":-73.92825},{"lat":41.70075,"lon":-73.92825},{"lat":41.70075,"lon":-73.92855},{"lat":41.70055,"lon":-73.92855}]}
+ ],"tags":{"type":"multipolygon","building":"yes","name":"Courtyard Hall"}},
+{"type":"way","id":13,"geometry":[{"lat":41.7000,"lon":-73.9300},{"lat":41.7000,"lon":-73.9295},{"lat":41.70015,"lon":-73.9295},{"lat":41.70015,"lon":-73.9300},{"lat":41.7000,"lon":-73.9300}],"tags":{"leisure":"park","name":"Tiny Park"}},
+{"type":"way","id":14,"geometry":[{"lat":41.7010,"lon":-73.9300},{"lat":41.7009,"lon":-73.9280}],"tags":{"waterway":"stream"}}
+]}
