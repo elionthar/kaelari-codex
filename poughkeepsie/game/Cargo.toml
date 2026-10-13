@@ -1,0 +1,17 @@
+[package]
+name = "game"
+version.workspace = true
+edition.workspace = true
+description = "Top-down zombie survival in downtown Poughkeepsie"
+
+[[bin]]
+name = "poughkeepsie"
+path = "src/main.rs"
+
+[dependencies]
+pkmap = { path = "../pkmap" }
+# No audio yet: avoids the ALSA dependency on Linux.
+macroquad = { version = "0.4", default-features = false }
+blake3 = "1"
+rand = { version = "0.8", default-features = false }
+rand_chacha = { version = "0.3", default-features = false }
