@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["pkmap", "osm2map", "game"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+
+# Keep debug builds playable on slow CPUs: optimize dependencies even in dev.
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 4
+panic = "abort"
